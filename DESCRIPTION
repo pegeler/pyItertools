@@ -1,0 +1,18 @@
+Package: pyItertools
+Title: Recreating the Python itertools and more-itertools APIs for R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Paul", "Egeler", , "paulegeler@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6948-9498"))
+Description: Provides functions similar to those found in the itertools standard
+    library package <https://docs.python.org/3/library/itertools.html>, and the
+    third-party more-itertools package
+    <https://more-itertools.readthedocs.io/en/stable/index.html>.
+    Also contains functions to emulate several Python builtins and operators
+    <https://docs.python.org/3/library/operator.html>.
+License: GPL (>=2)
+Depends:
+    purrr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
