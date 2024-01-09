@@ -8,6 +8,6 @@ second <- function(x) x[[2]]
 last <- function(x) x[[length(x)]]
 
 #' @export
-flip <- function(f, extra_args = list()) {
-  function(a, b) do.call(f, c(b, a, extra_args))
+flip <- function(f, ...) {
+  function(a, b) do.call(f, c(b, a, list(...)))
 }

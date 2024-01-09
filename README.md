@@ -17,14 +17,6 @@ to facilitate piping. Combinators might also be added.
 
 TODO: Complete TODO list.
 
-### Builtins
-
-- filter
-- zip
-- enumerate
-
-### Operator
-
 ### Itertools
 
 ### More Itertools
